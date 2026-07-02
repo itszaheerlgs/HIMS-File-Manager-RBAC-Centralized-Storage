@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>HIMS_FileManager</AssemblyName>
+    <RootNamespace>UPLOADER</RootNamespace>
+    <Version>3.0.0</Version>
+    <AssemblyTitle>HIMS File Manager v3</AssemblyTitle>
+    <ApplicationIcon>icon\HIMS_LOGO - Copy.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="manus\**" />
+    <EmbeddedResource Remove="manus\**" />
+    <None Remove="manus\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\notifyms.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
+    <PackageReference Include="NAudio" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\notifyms.mp3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Projects\HIMS_FileManager_Stored_Local\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Auditlogform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formchat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ImageViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Notificationtoastform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PinEntryDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Recyclebinform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RemoteAccessFixForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SuggestionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Updateprofileform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Userslistform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
